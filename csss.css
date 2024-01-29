@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**NAVBAR START**/
+nav {
+    width: 100%;
+    height: 15vh;
+
+    background-color: #91B2D9;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+#filler_nav {
+    height: 10vh;
+    width: 100%;
+}
+
+
+
+header {
+    margin-left: 1vw;
+    
+    
+}
+
+header h1 {
+
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+header p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', 'cursive';
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rowdies', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    font-family: 'Young Serif', serif;
+}
+ 
+/*button transition START*/
+.navigation {
+    margin-left: 22vw;
+}
+
+.button a {
+    font-size: 32px;
+}
+
+.button {
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.content {
+    padding: 17px;
+    margin: 0, 10px;
+    position: relative;
+    outline: 1px solid #5D9AD2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+
+    font-size: 17px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    font-family: 'Young Serif', serif;
+}
+
+.dropdown {
+    padding-bottom: 34px;
+    padding-top: 33px;
+    font-size: 24px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    background-color: #f9f9f9;
+
+    min-width: 200px;
+    min-height: 150px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    outline: 1px solid #5D9AD2;
+    z-index: 1;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation-name: hovering;
+    animation-duration: 0.75s;
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.dropdown:hover {
+    background-color: #5D9AD2;
+    transition: 0.75s;
+}
+
+.dropdown:hover .button {
+    color: white;
+    transition: 0.75s;
+}
+
+.content:hover {
+    background-color: #91B2D9;
+    transition: 0.5s;
+}
+
+.content:hover a {
+    color: white;
+}
+
+#logo {
+    height: 5vw;
+    width: 5vw;
+    z-index: 99;
+    margin-left: 4vw;
+
+    background-image: url(media/images.jpg);
+    border-radius: 50px;
+}
+
+
+.body{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.body video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.QUOTA{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    margin: auto;
+    width:50%;
+
+    transition: 0.75s;
+    background-color: rgba(255, 255, 255, 0.984);
+    border-radius: 15px;
+    font-size: 32px;
+    padding: 40px;
+    opacity: 1;
+}
+
+.body:hover .QOUTA {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.75s;
+    
+    
+    border-radius: 15px;
+    padding: 75px;
+}
