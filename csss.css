@@ -208,7 +208,7 @@ a {
 .main_content {
     position: relative;
     width: 100vw;
-    height: 200vh;
+    height: 70vh;
     overflow: hidden;
 
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ a {
 
 
 .container {
-    padding: 45px;
+    padding: 30px;
     background-color: #d9c091;
 
     color: white;
@@ -248,12 +248,22 @@ a {
    
 }
 
-#last #organization_achievements {
+#last{
+
+    background-image: url(media/bg.jpg);
+    position: absolute;
+    object-fit: cover;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#organization_achievement {
 
     display: flex;
     justify-content: center;
     font-size: 54px;
-    padding: 19px;
+    padding: 15px;
 
     height: 20vh;
     width: 100vw;
@@ -262,28 +272,31 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#pics{
+#last p{
+   
+    padding: 30px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+
+    text-align: center ;
+     
+    background: #9f8261;
+
+}
+
+#last #pics{
 
     display: flex;
     flex-direction: row;
 
-    padding: 10px;
-    border: 2px solid black;
+    padding-top: ;
 
 }
 
-    
-#pics img{
 
-    flex-direction: row;
+   
 
-    height: 10px;
-    width: 10px;
-    
-    
 
-     
-}
 
 
 /* FOOTER */
